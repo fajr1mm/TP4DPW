@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,400&family=Secular+One&display=swap');
+
+* {
+  box-sizing: border-box;
+  
+}
+
+body{
+  background-color: rgb(226, 236, 240);
+  padding: 40px;
+  font-family: 'DM Sans';
+}
+
+.headdata{
+  text-align: center;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 100%;
+  max-width: 1000px;
+}
+
+.content{
+  line-height: 27px; 
+  margin-block: 20px;
+}
+
+#name, #birth, #agama{
+  border: 1px solid #d4d4d4;
+  border-radius: 3px;
+  width: 100%;
+  height: 25px;
+  padding: 0 10px;
+}
+
+#pesan{
+  border: 1px solid #d4d4d4;
+  border-radius: 3px;
+  padding: 10px 0;
+  width: 100%;
+  height: 100px;
+}
+
+label{
+  margin-bottom: 20px;
+}
+
+button{
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#output{
+  display: none;
+  /* display: flex; */
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+}
+
+.header h4{
+  margin-inline-end: 400px;
+}
+
+.out-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.out-content h4{
+  margin-inline-end: 400px;
+}
+
+
+
